@@ -1,0 +1,118 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ARMovementManager">
+			<method name="OnRescanFromViolationClick"/>
+		</type>
+		<type fullname="CancelButtonPrefab">
+			<method name="OnCancelClick"/>
+			<method name="OnCancelClick"/>
+			<method name="OnCancelClick"/>
+			<method name="OnCancelClick"/>
+			<method name="OnCancelClick"/>
+			<method name="OnCancelClick"/>
+		</type>
+		<type fullname="CaptureDepthFrame">
+			<method name="CaptureFramePoints"/>
+			<method name="CompleteScanShowOBJFile"/>
+			<method name="CompleteScanShowPointCloud"/>
+			<method name="OnClickCombineMeshGO"/>
+			<method name="ResetPoints"/>
+		</type>
+		<type fullname="EditAlgorithmParameters">
+			<method name="OnCancelClick"/>
+			<method name="OnClearARDensePointCloud"/>
+			<method name="OnClearDataAvatarAlgo"/>
+			<method name="OnClearDoubleLayerDetectionAlgos"/>
+			<method name="OnClearProcessingManagerAlgo"/>
+			<method name="OnClearScanManagerAlgos"/>
+			<method name="OnClearStaticAlgos"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeFloat"/>
+			<method name="OnValueChangeInt"/>
+			<method name="OnValueChangeInt"/>
+			<method name="OnValueChangeInt"/>
+			<method name="OnValueChangeInt"/>
+			<method name="OnValueChangeInt"/>
+			<method name="OverrideChangesAndQuit"/>
+			<method name="SaveValuesOfTextFields"/>
+		</type>
+		<type fullname="ManagerForScenes">
+			<method name="LoadIntermediateSceneForScanning"/>
+			<method name="LoadIntermediateSceneForScanning"/>
+			<method name="LoadIntermediateSceneForScanning"/>
+			<method name="LoadIntermediateSceneForScanning"/>
+			<method name="LoadIntermediateSceneForScanning"/>
+			<method name="LoadScanningScene"/>
+			<method name="LoadScanningScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+		</type>
+		<type fullname="OpenGODModeScene">
+			<method name="OnPointerDownOpenGODMode"/>
+			<method name="OnPointerUpResetTapCount"/>
+		</type>
+		<type fullname="PopulateModels">
+			<method name="DeSelectAll"/>
+			<method name="OnShareButtonClick"/>
+			<method name="SelectAll"/>
+		</type>
+		<type fullname="SaveEmailIdToLocal">
+			<method name="ValidateEmail"/>
+		</type>
+		<type fullname="ScanManager">
+			<method name="OnStopScanButtonClick"/>
+		</type>
+		<type fullname="SelfCaptureDepthFrame">
+			<method name="CompleteScan"/>
+			<method name="ResetPoints"/>
+			<method name="StartCapture"/>
+		</type>
+		<type fullname="UIController_LoadPointCloud">
+			<method name="OnCancelUpdateUnderBustButonClick"/>
+			<method name="OnConfirmUpdateUnderBustClick"/>
+			<method name="OnRescanClick"/>
+			<method name="OnRescanClick"/>
+			<method name="OnSubmitUpdatedUnderbustPosClick"/>
+		</type>
+		<type fullname="WarningMenuManager">
+			<method name="OnQuitButtonClick"/>
+			<method name="OnQuitButtonClick"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
